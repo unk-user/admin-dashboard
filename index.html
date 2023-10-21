@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <section id="navigation">
+        <h1>DASHBOARD</h1>
+        <navbar>
+            <div id="pages">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005B41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Home</a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005B41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Profile</a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005B41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Messages</a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005B41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>History</a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005B41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Tasks</a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005B41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Communities</a>
+            </div>
+            <div id="settings">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005B41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>Settings</a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005B41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Support</a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#005B41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Privacy</a>
+            </div>
+        </navbar>
+    </section>
+    <main>
+        <header>
+            <div id="top">
+                <div id="searchbar"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#f5f5f5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search"></div>
+                <div id="notification"><img src="res/favicon-32x32.png" alt="Profile"><h3>Unknown User</h3></div>
+            </div>
+            <div id="bottom">
+                <div id="greeting">hi there <a href="https://github.com/unk-user" id="username">Unknown User (@unk-user)</a></div>
+                <div id="addcontent">
+                    <button class="share">New</button>
+                    <button class="share">Upload</button>
+                    <button class="share">Share</button>
+                </div>
+            </div>
+        </header>
+        <div id="content">
+            <div id="left">
+                <h3 class="title">Your Projects</h3>
+                <div id="projects">
+                    <div id="project-1" class="project">
+                        <h3 class="projecttitle">Super Cool Project</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                    </div>
+                    <div id="project-2" class="project">
+                        <h3 class="projecttilte">Less Cool Project</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna molestie at elementum eu facilisis sed.</p>
+                    </div>
+                    <div id="project-3" class="project">
+                        <h3 class="projecttitle">Impossible App</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin tempor id eu nisl.</p>
+                    </div>
+                    <div id="project-4" class="project">
+                        <h3 class="projecttitle">Easy App</h3><p>mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus sit </p>
+                    </div>
+                    <div id="project-5" class="project">
+                        <h3 class="projecttitle">Ad Blocker</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,.</p>
+                    </div>
+                    <div id="project-6" class="project">
+                        <h3 class="projecttitle">Money Maker</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <div id="annoucementsContainer">
+                    <h3 class="title">Announcements</h3>
+                    <div class="smallcontainer">
+                        <div class="announcement">
+                           <h4>Site Maintenance</h4>
+                           <p></p>
+                         </div>
+                        <div class="announcement">
+                           <h4>Community Share Day</h4>
+                           <p></p>
+                        </div>
+                        <div class="announcement">
+                            <h4>Updated Privacy Policy</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                 </div>
+                <div id="trendingContainer">
+                    <h3 class="title">Trending</h3>
+                    <div class="smallcontainer">
+                        <div class="accounts">
+                            <div id="profilecontainer"></div>
+                            <div id="account">
+                                <a href="">@hey</a>
+                                <p>THE</p>
+                            </div>
+                        </div>
+                        <div class="accounts">
+                            <div id="profilecontainer"></div>
+                            <div id="account">
+                                <a href="">@boy</a>
+                                <p>Industrial</p>
+                            </div>
+                        </div>
+                        <div class="accounts">
+                            <div id="profilecontainer"></div>
+                            <div id="account">
+                                <a href="">@haha</a>
+                                <p>Society and</p>
+                            </div>
+                        </div>
+                        <div class="accounts">
+                            <div id="profilecontainer"></div>
+                            <div id="account">
+                                <a href="">@damn</a>
+                                <p>Its</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
