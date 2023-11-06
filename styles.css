@@ -56,7 +56,6 @@ li{
 }
 #projects-container {
     grid-row: 2 / 4;
-    height: 
 }
 #topnav {
     display: flex;
@@ -140,12 +139,17 @@ li{
     padding: 10px;
     color: var(--secondary)
 }
+.project p {
+    line-height: 25px;
+}
 .username {
     margin: 10px;
 }
 .primaryBtn {
     width: 120px;
     background-color: var(--secondary);
+    color: var(--background);
+    font-size: 1.1rem;
 }
 .secondaryBtn {
     width: 50px;
