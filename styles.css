@@ -4,6 +4,7 @@
     --background: #B2C8BA;
     --primary: #86A789;
     --secondary: #393E46;
+    --contrast-color: #427D9D;
 }
 html * {
     font-family: RobotoBold;
@@ -105,6 +106,13 @@ li{
 #announcements {
     background-color: var(--secondary);
 }
+#edit-profile {
+    background-color: var(--secondary);
+    color: var(--main);
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
 .cardHeader {
     width: 100%;
     height: 50px;
@@ -137,7 +145,8 @@ li{
 .project {
     background-color: var(--main);
     padding: 10px;
-    color: var(--secondary)
+    color: var(--secondary);
+    text-shadow: 1px 1px 5px var(--background);
 }
 .project p {
     line-height: 25px;
@@ -176,6 +185,10 @@ li{
     color: var(--primary);
     display: flex;
     align-items: center;
+    transition: 0.3s;
+}
+.nav-item a:hover {
+    transform: scale(1.1);
 }
 .nav-item svg {
     margin-right: 10px;
@@ -192,6 +205,25 @@ li{
 .card {
     display: flex; 
     flex-direction: column;
+    width: 240px;
+}
+.projectLink {
+    text-decoration: none;
+    color: var(--contrast-color);
+}
+.cardList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 80%;
+}
+.cardItem {
+    height: 1.8rem;
+    border-bottom: 1px solid black;
+}
+.typeOne {
+    color: var(--secondary);
 }
 @font-face {
     font-family: RobotoBold;
